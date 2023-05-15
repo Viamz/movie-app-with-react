@@ -1,0 +1,21 @@
+.card {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card:hover{
+    opacity: 0.8;
+}
+
+.cardImage{
+    border-radius: 10px;
+    background-color: azure;
+}
+
+@media (max-width: 560px){
+    .cardImage{
+        width: 90%;
+        height: auto;
+    }
+}

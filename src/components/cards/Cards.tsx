@@ -5,7 +5,7 @@ export const Cards = ({movie}) => {
   const imageUrl = "https://image.tmdb.org/t/p/w300" + movie.poster_path;
   return (
       <li className= {styles.card}>
-        <NavLink to={"/movies/" + movie.id}>
+        <NavLink to={"/movies/" + movie.id.toString()}>
           <img 
           width={230}
           height = {345}

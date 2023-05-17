@@ -4,6 +4,5 @@ import { MovieDetail } from "./MovieDetail"
 export const LandingPage = () => {
   return (
     <MoviesGrid />
-
   )
 }

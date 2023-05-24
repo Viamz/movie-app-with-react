@@ -35,5 +35,5 @@ export const MovieDetail = () => {
                <p><strong>Description:</strong> {movie.overview}</p>
             </div>
         </div>
-  )
+    )
 }

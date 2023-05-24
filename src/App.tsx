@@ -15,7 +15,7 @@ export const App = () => {
     <div>
       <Router>
         <header>
-          <nav>Menu</nav>
+          {/* <nav>Menu</nav> */}
           <NavLink to="/">
             <h1 className={styles.title}>Cinema Movies</h1>
           </NavLink>
